@@ -92,6 +92,7 @@ class choria::broker (
   String $system_password,
   String $provisioner_password,
   String $provisioning_signer_source,
+  Optional[Integer] $write_deadline = undef,
 ) {
   require choria
 
